@@ -16,20 +16,15 @@ Capture live network traffic using Wireshark and identify common network protoco
 ## Steps Performed:
 
 ### Step 1: Launch Wireshark
-    Open Wireshark in Kali Linux from the app menu or using terminal:
-  bash
-  wireshark
+    Open Wireshark in Kali Linux from the app menu.
 
 ### Step 2: Select the Correct Interface
-
     From the interface list, selected the active one eth0 showing live traffic.
 
 ### Step 3: Start Capturing Packets
-
     Clicked on the correct interface to start live packet capture.
 
 ### Step 4: Generate Traffic
-
     Opened Firefox and visited:
 
         * https://wikipedia.org
@@ -41,15 +36,12 @@ Capture live network traffic using Wireshark and identify common network protoco
     ping google.com
 
 ### Step 5: Stop the Capture
-
     After 1 minute, clicked the red square button in Wireshark to stop the capture.
 
 ### Step 6: Save the Capture File
-
     Saved the file as: network_capture.pcap
 
 ### Step 7: Analyze the Traffic
-
     Applied filters in Wireshark to view specific protocols:
 
         icmp for ping traffic
